@@ -1,9 +1,9 @@
 import React from 'react';
 import {Text, Pressable, StyleProp, ViewStyle} from 'react-native';
 
-import {colors} from '../../theme';
+import {colors} from '@theme';
+import {BUTTON_PRESET} from '@common';
 
-import {BUTTON_PRESET} from '../../common/constants';
 import {styles} from './bbButton-styles';
 
 interface IAFButtonType {

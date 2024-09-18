@@ -1,6 +1,6 @@
 import {StyleSheet, TextStyle, ViewStyle} from 'react-native';
 
-import {colors} from '../../theme';
+import {colors} from '@theme';
 
 interface Styles {
   button: ViewStyle;

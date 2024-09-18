@@ -17,7 +17,7 @@ import MaterialIconsIcon from 'react-native-vector-icons/MaterialIcons';
 import OcticonsIcon from 'react-native-vector-icons/Octicons';
 import ZocialIcon from 'react-native-vector-icons/Zocial';
 
-import {APP_ICON_PRESET} from '../../common/constants';
+import {APP_ICON_PRESET} from '@common';
 
 interface IAppIconProps {
   name: string;
