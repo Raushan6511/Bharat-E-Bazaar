@@ -6,4 +6,6 @@ export const palette = {
   red: '#ff0000',
   lightGreen: '#7EE2B8',
   gray: '#767577',
+  pureOrange: '#FC5400',
+  vividOrange: '#fc6603',
 };
