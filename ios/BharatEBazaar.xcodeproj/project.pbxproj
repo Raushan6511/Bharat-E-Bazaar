@@ -14,6 +14,8 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		7699B88040F8A987B510C191 /* libPods-BharatEBazaar-BharatEBazaarTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-BharatEBazaar-BharatEBazaarTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		5EC36C9CD59E41179E5F59DE /* BootSplash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9A3143BD10448238178D0E1 /* BootSplash.storyboard */; };
+		A9CB3966838C4D6F85CD62E8 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BCC0E4AAF62473FA2266D02 /* Colors.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = BharatEBazaar/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-BharatEBazaar-BharatEBazaarTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BharatEBazaar-BharatEBazaarTests.release.xcconfig"; path = "Target Support Files/Pods-BharatEBazaar-BharatEBazaarTests/Pods-BharatEBazaar-BharatEBazaarTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		E9A3143BD10448238178D0E1 /* BootSplash.storyboard */ = {isa = PBXFileReference; name = "BootSplash.storyboard"; path = "BharatEBazaar/BootSplash.storyboard"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3BCC0E4AAF62473FA2266D02 /* Colors.xcassets */ = {isa = PBXFileReference; name = "Colors.xcassets"; path = "BharatEBazaar/Colors.xcassets"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = folder.assetcatalog; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,8 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 				13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */,
+				E9A3143BD10448238178D0E1 /* BootSplash.storyboard */,
+				3BCC0E4AAF62473FA2266D02 /* Colors.xcassets */,
 			);
 			name = BharatEBazaar;
 			sourceTree = "<group>";
@@ -245,6 +251,8 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				5EC36C9CD59E41179E5F59DE /* BootSplash.storyboard in Resources */,
+				A9CB3966838C4D6F85CD62E8 /* Colors.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

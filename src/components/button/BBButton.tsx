@@ -6,7 +6,7 @@ import {BUTTON_PRESET} from '@common';
 
 import {styles} from './bbButton-styles';
 
-interface IAFButtonType {
+interface IBBButtonType {
   title: string;
   customButtonStyle?: StyleProp<ViewStyle>;
   buttonHandler: () => void;
@@ -15,7 +15,7 @@ interface IAFButtonType {
   isDisabled?: boolean;
 }
 
-const BBButton: React.FC<IAFButtonType> = props => {
+const BBButton: React.FC<IBBButtonType> = props => {
   const {
     title,
     customButtonStyle,
