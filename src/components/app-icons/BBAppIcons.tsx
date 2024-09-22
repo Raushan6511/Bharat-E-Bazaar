@@ -19,7 +19,7 @@ import ZocialIcon from 'react-native-vector-icons/Zocial';
 
 import {APP_ICON_PRESET} from '@common';
 
-interface IAppIconProps {
+interface IBBAppIconProps {
   name: string;
   preset: string;
   size?: number;
@@ -50,7 +50,7 @@ const iconComponents = {
 
 console.log(typeof iconComponents);
 
-const BBAppIcons: React.FC<IAppIconProps> = ({
+const BBAppIcons: React.FC<IBBAppIconProps> = ({
   name,
   size = 30,
   color = 'black',

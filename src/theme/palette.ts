@@ -8,4 +8,8 @@ export const palette = {
   gray: '#767577',
   pureOrange: '#FC5400',
   vividOrange: '#fc6603',
+  antiFlashWhite: '#F2F2F2',
+  brightGray: '#E5F5EA',
+  chineseSilver: '#CCCCCC',
+  ghostWhite: '#FAFBFF',
 };
