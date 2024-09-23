@@ -1,6 +1,6 @@
 import {StyleSheet, TextStyle, ViewStyle} from 'react-native';
 
-import {colors} from '@theme';
+import {colors, typography} from '@theme';
 
 interface Styles {
   container: ViewStyle;
@@ -17,6 +17,7 @@ const styles = StyleSheet.create<Styles>({
     fontSize: 30,
     marginVertical: 20,
     textAlign: 'center',
+    fontFamily: typography.ultraBold,
   },
 });
 
