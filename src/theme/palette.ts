@@ -12,4 +12,7 @@ export const palette = {
   brightGray: '#E5F5EA',
   chineseSilver: '#CCCCCC',
   ghostWhite: '#FAFBFF',
+
+  // new color
+  new1:'#1C1D1D'
 };
