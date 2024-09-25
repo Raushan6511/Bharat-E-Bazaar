@@ -1,6 +1,7 @@
 import {StyleSheet, TextStyle, ViewStyle} from 'react-native';
 
-import {colors} from '@theme';
+import {colors, typography} from '@theme';
+import {getFontSize} from '@utils';
 
 interface Styles {
   tabBar: ViewStyle;
@@ -32,8 +33,9 @@ const styles = StyleSheet.create<Styles>({
     zIndex: -1,
   },
   tabLabel: {
-    fontSize: 10,
+    fontSize: getFontSize(10),
     color: colors.palette.pureOrange,
+    fontFamily: typography.regular,
   },
 });
 

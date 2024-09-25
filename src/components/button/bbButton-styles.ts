@@ -1,6 +1,7 @@
 import {StyleSheet, TextStyle, ViewStyle} from 'react-native';
 
-import {colors} from '@theme';
+import {colors, typography} from '@theme';
+import {getFontSize} from '@utils';
 
 interface Styles {
   button: ViewStyle;
@@ -29,8 +30,8 @@ const styles = StyleSheet.create<Styles>({
     backgroundColor: colors.secondary,
   },
   title: {
-    fontSize: 18,
-    fontWeight: '500',
+    fontSize: getFontSize(18),
+    fontFamily: typography.medium,
     textAlign: 'center',
   },
   disable: {

@@ -1,6 +1,7 @@
 import {StyleSheet, TextStyle, ViewStyle} from 'react-native';
 
 import {colors} from '@theme';
+import {getFontSize} from '@utils';
 
 interface Styles {
   container: ViewStyle;
@@ -14,7 +15,7 @@ const styles = StyleSheet.create<Styles>({
   },
   title: {
     color: colors.palette.black,
-    fontSize: 30,
+    fontSize: getFontSize(30),
     marginVertical: 20,
     textAlign: 'center',
   },

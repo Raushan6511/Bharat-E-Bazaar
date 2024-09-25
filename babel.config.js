@@ -11,6 +11,7 @@ module.exports = {
           '@common': './src/common',
           '@theme': './src/theme',
           '@screens': './src/screens',
+          '@utils': './src/utils',
         },
       },
     ],
