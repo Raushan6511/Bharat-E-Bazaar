@@ -8,6 +8,7 @@ interface Styles {
   tab: ViewStyle;
   ripple: ViewStyle;
   tabLabel: TextStyle;
+  slidingBorder: ViewStyle;
 }
 
 const styles = StyleSheet.create<Styles>({
@@ -34,8 +35,15 @@ const styles = StyleSheet.create<Styles>({
   },
   tabLabel: {
     fontSize: getFontSize(10),
-    color: colors.palette.pureOrange,
+    color: colors.primary,
     fontFamily: typography.regular,
+  },
+  slidingBorder: {
+    position: 'absolute',
+    height: 3,
+    top: 0,
+    borderBottomLeftRadius: 50,
+    borderBottomRightRadius: 50,
   },
 });
 

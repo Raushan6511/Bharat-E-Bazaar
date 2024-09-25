@@ -40,6 +40,6 @@ export enum TAB_ROUTES {
   HOME = 'Home',
   CATEGORIES = 'Categories',
   FAVORITES = 'Favorites',
-  ORDERS = 'Orders',
-  PROFILE = 'Profile',
+  ACCOUNT = 'Account',
+  TRENDS = 'Trends',
 }

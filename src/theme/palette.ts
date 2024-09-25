@@ -9,6 +9,11 @@ export const palette = {
   darkSlateGray: '#2F4F4F',
   periwinkle: '#9B7FFF',
   teal: '#008080',
+  lightGrey: '#E0E0E0',
+  grey: '#BEBEBE',
+  darkGrey: '#757575',
+  red: '#FF0000',
+  yellowGold: '#FFD700',
 };
 
 // {
