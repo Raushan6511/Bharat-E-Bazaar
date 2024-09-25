@@ -24,6 +24,12 @@ export enum APP_ICON_PRESET {
   ZOCIAL = 'Zocial',
 }
 
+export enum KEYBOARD_PRESET {
+  PHONE_PAD = 'phone-pad',
+  DEFAULT = 'default',
+  NUMBER_PAD = 'number-pad',
+}
+
 // Routes
 export enum STACK_ROUTES {
   BOTTOM_HOME = 'BOTTOM_HOME',

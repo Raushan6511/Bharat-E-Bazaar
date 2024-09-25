@@ -17,6 +17,7 @@ const styles = StyleSheet.create<Styles>({
     backgroundColor: colors.palette.black,
     borderRadius: 5,
     justifyContent: 'center',
+    margin: 10,
     padding: 10,
   },
   primaryButton: {

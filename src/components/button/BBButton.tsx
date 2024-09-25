@@ -10,7 +10,7 @@ interface IBBButtonType {
   title: string;
   customButtonStyle?: StyleProp<ViewStyle>;
   buttonHandler: () => void;
-  titleColor?: string;
+  customTitleColor?: string;
   buttonType?: string;
   isDisabled?: boolean;
 }
@@ -20,13 +20,14 @@ const BBButton: React.FC<IBBButtonType> = props => {
     title,
     customButtonStyle,
     buttonHandler,
-    titleColor = colors.palette.white,
+    customTitleColor = colors.palette.white,
     buttonType = BUTTON_PRESET.PRIMARY,
     isDisabled = false,
   } = props;
 
   const getButtonStyle = () => {
     let buttonStyle = {};
+    let titleColor = {};
     switch (buttonType) {
       case BUTTON_PRESET.PRIMARY:
         buttonStyle = [
@@ -35,6 +36,7 @@ const BBButton: React.FC<IBBButtonType> = props => {
           customButtonStyle,
           isDisabled && styles.disable,
         ];
+        titleColor = {color: colors.palette.white};
         break;
       case BUTTON_PRESET.SECONDARY:
         buttonStyle = [
@@ -43,6 +45,7 @@ const BBButton: React.FC<IBBButtonType> = props => {
           customButtonStyle,
           isDisabled && styles.disable,
         ];
+        titleColor = {color: colors.primary};
         break;
       case BUTTON_PRESET.CUSTOM:
         buttonStyle = [
@@ -50,18 +53,22 @@ const BBButton: React.FC<IBBButtonType> = props => {
           customButtonStyle,
           isDisabled && styles.disable,
         ];
+        titleColor = {color: customTitleColor};
         break;
       default:
         buttonStyle = {};
+        titleColor = {};
     }
-    return buttonStyle;
+    return {buttonStyle, titleColor};
   };
+
+  const {buttonStyle, titleColor} = getButtonStyle();
 
   return (
     <Pressable
       onPress={isDisabled ? () => {} : buttonHandler}
-      style={getButtonStyle}>
-      <Text style={[styles.title, {color: titleColor}]}>{title}</Text>
+      style={buttonStyle}>
+      <Text style={[styles.title, titleColor]}>{title}</Text>
     </Pressable>
   );
 };
