@@ -57,7 +57,7 @@ const CustomTabBar: React.FC<CustomTabBarProps> = ({data, defaultProps}) => {
         const isFocused = state.index === index;
         const tabLabelStyle = isFocused
           ? {color: color, fontFamily: typography.medium}
-          : {color: colors.palette.darkGrey};
+          : {color: colors.palette.mediumGrey};
 
         const scale = useSharedValue(0);
         const opacity = useSharedValue(0);
@@ -92,7 +92,7 @@ const CustomTabBar: React.FC<CustomTabBarProps> = ({data, defaultProps}) => {
             <BBAppIcons
               name={icon}
               preset={type}
-              color={isFocused ? color : colors.palette.darkGrey}
+              color={isFocused ? color : colors.palette.mediumGrey}
               iconPress={onPress}
               iconPressIn={onPressIn}
               iconPressOut={onPressOut}

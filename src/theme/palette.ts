@@ -12,8 +12,10 @@ export const palette = {
   lightGrey: '#E0E0E0',
   grey: '#BEBEBE',
   darkGrey: '#757575',
+  mediumGrey: '#A4A4A4',
   red: '#FF0000',
   yellowGold: '#FFD700',
+  vividRaspberry: '#D5006D',
 };
 
 // {

@@ -34,12 +34,15 @@ export enum KEYBOARD_PRESET {
 export enum STACK_ROUTES {
   BOTTOM_HOME = 'BOTTOM_HOME',
   EVENT = 'EVENT',
+  FAVORITES = 'Favorites',
+  CART = 'Cart',
+  NOTIFICATION = 'Notification',
 }
 
 export enum TAB_ROUTES {
   HOME = 'Home',
   CATEGORIES = 'Categories',
-  FAVORITES = 'Favorites',
+  NEW_ARRIVALS = 'New Arrivals',
   ACCOUNT = 'Account',
   TRENDS = 'Trends',
 }

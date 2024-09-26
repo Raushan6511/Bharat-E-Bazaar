@@ -32,11 +32,11 @@ const styles = StyleSheet.create<Styles>({
   },
   title: {
     fontSize: getFontSize(18),
-    fontFamily: typography.medium,
+    fontFamily: typography.regular,
     textAlign: 'center',
   },
   disable: {
-    backgroundColor: colors.palette.gray,
+    backgroundColor: colors.palette.grey,
   },
 });
 
